@@ -11,7 +11,8 @@ const slider2 = document.getElementById("glide_2");
 =============
 Hero
 =============
- */
+*/
+
 if (slider1) {
     new Glide(slider1, {
       type: "carousel",
@@ -24,6 +25,4 @@ if (slider1) {
     }).mount();
   }
 
-
-
-  AOS.init();
+AOS.init();
